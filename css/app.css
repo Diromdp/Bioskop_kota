@@ -33,6 +33,11 @@ body{
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff !important;
 }
+.play-list{
+	width: 100%;
+	height: 230px;
+	background-image: url(../image/bg-playlist.png) !important;
+}
 .carousel-control     		 { width:  4%; }
 .carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
 @media (max-width: 767px) {

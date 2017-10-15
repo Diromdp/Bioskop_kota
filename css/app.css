@@ -105,8 +105,9 @@ element.style {
 	width: 100%;
 	background-color: #1a417f;
 }
-.play-list .btn-default {
-	
+.play-list .ply {
+	background-color: #000 !important;
+	color: #fff;
 }
 .play-list .btn-default:hover {
 	background-color: #000 !important;

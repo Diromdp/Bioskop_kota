@@ -1,6 +1,14 @@
-body{
-	color:#fff;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+html,
+body {
+  height: 100%;
+  color:#fff;
+}
+
 .img-logo{
 	width: 80px;
 }
@@ -113,10 +121,10 @@ element.style {
 	background-color: #000 !important;
 	color: #fff;
 }
-.carousel-control.left{
+.carousel-control.control-left{
 	left:20px;
 }
-.carousel-control.right{
+.carousel-control.control-right{
 	
     right: -50px !important;
 }
@@ -125,7 +133,7 @@ element.style {
 }
 
 .carousel-control     		 { width:  0 !important; }
-.carousel-control.left,.carousel-control.right {margin-left:15px; background-image:none !important;}
+.carousel-control.control-left,.carousel-control.control-right {margin-left:15px; background-image:none !important;}
 @media (max-width: 767px) {
 	.carousel-inner .active.left { left: -100%; }
 	.carousel-inner .next        { left:  100%; }
@@ -176,18 +184,19 @@ hr{
 	text-decoration: none;
 }
 .footer {
-  width: 100%;
-  height: 100px;
-  line-height:100px;
   background-color: #1d4788;
   color: #fff;
-  padding-right: 20px;
-  padding-left: 20px;
+  position: relativel;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  text-align: left;
 }
 
 .text-muted{
 	color: #fff !important;
-	font-size: 12px;
+	font-size: 20px;
 	
 }
 .social-icon {
@@ -215,6 +224,10 @@ ul.social-icons {
 		margin: 0 auto;
 		padding-top: 10px;
 	}
+	.text-muted{
+	font-size: 12px !important;
+	
+	}
 	.navbar-nav{
 		margin-left: 0px !important;
 	}
@@ -233,7 +246,7 @@ ul.social-icons {
 	.carousel-movie{
 		right: 0px !important;
 	}
-	.carousel-control.right {
+	.carousel-control.control-right {
     right: 30px !important;
 	}
 	.banner-movie{
@@ -257,7 +270,48 @@ ul.social-icons {
     display: none;
 	}
 	.footer{
-		padding: 0 !important;
+		padding-top: 10px !important;
+		text-align: center !important;
 	}
     	
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+.navbar-nav {
+    margin-left: 40px !important;
+}
+.form-inline input[type=text]{
+	width: auto !important;
+	background-position: 160px 10px;
+}
+.ads-left {
+    right: 10px;
+}
+.carousel-control.control-right {
+    right: 40px !important;
+}
+.ads-left img {
+    height: 372px !important;
+}
+.ads-right img {
+    height: 372px !important;
+}
+.carousel-movie {
+    right: 20px !important;
+}
+.slider-play {
+    height: 375px !important;
+    width: 480px !important;
+}
+.banner-movie {
+    margin-left: 0px !important; 
+}
+.itm-movie img {
+    height: 371px !important;
+}
+.ads-right {
+    left: -78px;
+}
+footer{
+	padding-bottom: 220px !important;
+}
 }

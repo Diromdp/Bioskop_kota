@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui" />
 <link rel="stylesheet" href="css/app.css"/>
 <link rel="stylesheet" href="css/bootstrap.css"/>
 <link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet"/>
 	<title>Index</title>
 </head>
 <body>
 <header class="navbar-fixed-top navbar-default">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
@@ -39,76 +42,66 @@
         
     </div>
 </header>
-<div class="container-fluid now-play">
-    <div class="">
-      <div class="row">
-            <div class="col-sm-2 ads-left"><img src="image/ads-left.png" alt=""></div>
-              <div class="col-md-9 carousel-movie">
-                <!-- The carousel -->
-                <div class="row">
-                <div class="col-md-8 carousel-slide">
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <!-- <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol> -->
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner slider-play">
-                      <div class="item itm-movie active">
-                        <img src="image/Guard.png" alt="Los Angeles" style="width:100%;">
-                        <div class="carousel-caption">
-                        <h3>Guardian Of galaxy</h3>
-                        <p>Play now</p>
-                        </div>
-                      </div>
-
-                      <div class="item itm-movie">
-                        <img src="image/Guard-lg.png" alt="Chicago" style="width:100%;">
-                        <div class="carousel-caption">
-                        <h3>Guardian Of galaxy</h3>
-                        <p>Play now</p>
-                        </div>
-                      </div>
-                    
-                      <div class="item itm-movie">
-                        <img src="image/Guard-lg.png" alt="New york" style="width:100%;">
-                        <div class="carousel-caption">
-                        <h3>Guardian Of galaxy</h3>
-                        <p>Play now</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control control-left" href="#myCarousel" data-slide="prev">
-                      <span class="glyphicon glyphicon-chevron-left"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control control-right" href="#myCarousel" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-3 banner-movie"  style="padding: 0px;">
-                <a href="#" title=""><img src="image/guard1.png" class="img-responsive" alt=""></a>
-                <a href="#" title=""><img src="image/guard2.png" class="img-responsive" alt=""></a>
-                <a href="#" title=""><img src="image/guard3.png" class="img-responsive" alt=""></a>
-                </div>
-                </div>
+<div class="container-fluid">
+<div class="row"> 
+<div class="col-sm-12">
+<div class="owl-carousel owl-theme owl-loaded owl-drag">
+  <div class="item-playnow">
+  <img src="http://placehold.it/1200x500" alt="" />
+  <div class="inner">
+      <div class="row row-content">
+          <div class="col-md-12">
+              <div class="headline-wrap">
+                  <h1><span class="reveal-text">Guardian Galaxy</span></h1>
               </div>
-              <div class="col-sm-1 ads-right"><img src="image/ads-right.png" alt=""></div>
+          </div>
+      </div>
+      <div class="row row-cta">
+          <div class="col-md-12 cta-wrap">
+              <a class="cta-main"><span class="cta-text reveal-text">Play Now</span></a>
+          </div>
       </div>
     </div>
+  </div>
+  <div class="item-playnow">
+  <img src="http://placehold.it/1200x500" alt="" />
+  <div class="inner">
+      <div class="row row-content">
+          <div class="col-md-12">
+                  <div class="headline-wrap">
+                  <h1><span class="reveal-text">Guardian</span></h1>
+              </div>
+          </div>
+      </div>
+      <div class="row row-cta">
+          <div class="col-md-12 cta-wrap js-cta-wrap">
+              <a class="cta-main"><span class="cta-text reveal-text">Play now</span></a>
+          </div>
+      </div>
+    </div>
+  </div>  
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-4 col-xs-12">
+  <a href="#" title=""><img src="http://placehold.it/600x300" alt="" class="img-responsive img-banner"></a>
+  </div>
+  <div class="col-md-4 col-xs-12">
+  <a href="#" title=""><img src="http://placehold.it/600x300" alt="" class="img-responsive img-banner"></a>
+  </div>
+  <div class="col-md-4 col-xs-12">
+  <a href="#" title=""><img src="http://placehold.it/600x300" alt="" class="img-responsive img-banner"></a>
+  </div>
+</div>
 </div>
 <div class="container-fluid play-list">
    <div class="row">
    <div class="col-sm-12" style="padding-top: 10px">
     <div class="row">
-      <div class="col-sm-3 form-group">
+      <div class="col-sm-2 form-group">
         <select class="form-control" id="Jahit">
             <option>Vendor A</option>
             <option>2</option>
@@ -155,7 +148,7 @@
         <a class="left carousel-control" href="#listmovie" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
         <a class="right carousel-control" href="#listmovie" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
       </div>
-      </div>          
+    </div>          
     </div>
   </div>
 </div>
@@ -186,6 +179,8 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
 $('.carousel[data-type="multi"] .item').each(function(){
@@ -203,6 +198,19 @@ $('.carousel[data-type="multi"] .item').each(function(){
     
     next.children(':first-child').clone().appendTo($(this));
   }
+});
+$('.owl-carousel').owlCarousel({
+    stagePadding: 0,
+    items: 1,
+    loop:true,
+    margin:0,
+    singleItem:true,
+    nav:true,
+    navText: [
+        "<i class='fa fa-caret-left'></i>",
+        "<i class='fa fa-caret-right'></i>"
+    ],
+    dots:true
 });
 
 });

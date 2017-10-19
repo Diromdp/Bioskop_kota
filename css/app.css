@@ -123,7 +123,7 @@ hr{
 
 .text-muted{
 	color: #fff !important;
-	font-size: 20px;
+	font-size: 18px;
 	
 }
 .img-banner{
@@ -150,6 +150,12 @@ ul.social-icons {
     text-decoration: none;
 }
 @media only screen and (max-width: 736px){
+  .navbar-collapse{
+    text-align: left !important;
+  }
+  #boxes .window{
+  display: none !important;
+  }
 		.news h1{
 		text-align: center;
 		margin: 0 auto;
@@ -191,14 +197,15 @@ ul.social-icons {
     	
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+
 .form-inline input[type=text]{
 	width: auto !important;
 	background-position: 160px 10px;
 }
 
-footer{
-	padding-bottom: 220px !important;
-}
+  footer{
+  	padding-bottom: 220px !important;
+  }
 }
 /* Owl Carousel CSS */
 .owl-carousel:after {
@@ -405,25 +412,74 @@ footer{
 }
 /* END OWL-Carousel Navigation*/
 
-@media only screen and (max-width:768px) {
-  #full-width{
-    padding: 0;
+@media only screen and (min-width:768px) and (max-device-width: 850px){
+   #boxes .window{
+  display: none !important;
   }
-  .item{
-    transform: scale(0);
+  .navbar-nav{
+    position: relative;
+    left: -60px;
   }
-  .item img{
-    height: 400px !important;
+  .form-inline{
+    position: relative;
   }
-  .active .item img{
-    max-height: 400px;
+  .form-inline input[type=text] {
+    width: 120px !important;
+    background-position: 90px 10px !important;
+    position: relative !important;
+    top: -57px !important;
   }
+  
 }
-@media only screen and (max-width:420px) {
-  .item img{
-    height: 200px !important;
-  }
-  .active .item img{
-    max-height: 200px;
-  }
+
+/* popup */
+#lorem{
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12pt;
+  text-align: left;
+}
+#popupfoot{
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+  text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+  background-color:#D1D1D1;
+  color: green;
+}
+.popupoption2:hover{
+  
+  color: red;
+}
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none !important;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 850px;
+  height: 400px;
+  
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+
+  padding:10px;
+  background-color:#ffffff;
 }

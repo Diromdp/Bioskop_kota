@@ -58,11 +58,17 @@ element.style {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff !important;
 }
-
+.waiting-movie{
+  background-image: url(../image/bg-nowplay.png) !important;
+  width: 100%;
+}
 .now-play{
-	background-image: url(../image/bg-nowplay.png) !important;
-	width: 100%;
+  background-image: url(../image/bg-nowplay.png) !important;
+  width: 100%;
 	padding-top: 60px;
+}
+.carousel-control{
+  background: none !important;
 }
 .play-list{
 	width: 100%;

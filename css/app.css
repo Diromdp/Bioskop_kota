@@ -149,7 +149,19 @@ ul.social-icons {
     color: #fff;
     text-decoration: none;
 }
+.carousel-control.left{
+  left:-80px;
+}
+.carousel-control.right{
+  right:-80px !important;
+}
 @media only screen and (max-width: 736px){
+  .carousel-control.left{
+  left:0 !important;
+  }
+  .carousel-control.right{
+    right:0 !important;
+  }
   .navbar-collapse{
     text-align: left !important;
   }
@@ -197,7 +209,12 @@ ul.social-icons {
     	
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
-
+.carousel-control.left{
+  left:0 !important;
+  }
+  .carousel-control.right{
+    right:0 !important;
+  }
 .form-inline input[type=text]{
 	width: auto !important;
 	background-position: 160px 10px;

@@ -488,7 +488,7 @@ ul.social-icons {
 #boxes .window {
   position:absolute;
   left:0;
-  top:0;
+  top:60px !important;
   width: 850px;
   height: 400px;
   

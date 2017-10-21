@@ -65,7 +65,7 @@ element.style {
 .now-play{
   background-image: url(../image/bg-nowplay.png) !important;
   width: 100%;
-	padding-top: 60px;
+	padding-top: 70px;
 }
 .carousel-control{
   background: none !important;
@@ -208,7 +208,7 @@ ul.social-icons {
   }
 }
 /* Owl Carousel CSS */
-.owl-carousel:after {
+.carousel-movie:after {
   content: "";
   display: block;
   position: absolute;
@@ -439,6 +439,9 @@ ul.social-icons {
   text-align: left;
 }
 #popupfoot{
+  position: absolute;
+  top:-9px;
+  right: 0;
   font-family: "Segoe UI", sans-serif;
   font-size: 16pt;
   padding: 10px 20px;
@@ -483,3 +486,5 @@ ul.social-icons {
   padding:10px;
   background-color:#ffffff;
 }
+
+/* slider list movie */

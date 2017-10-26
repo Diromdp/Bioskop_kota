@@ -7,8 +7,27 @@ html,
 body {
   height: 100%;
   color:#fff;
+  background-image: url(../image/bg-full.png) !important;
+}
+.pd-0 {
+  padding: 0 !important;
+}
+@media only screen and (min-width: 1121px){
+  .pd-l-20 {
+    padding-left: 20px !important;
+  }
+
+  .pd-r-20 {
+    padding-right: 20px !important;
+  }
 }
 
+.content-body{
+  padding: 0;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  
+}
 .img-logo{
 	width: 80px;
 }
@@ -175,12 +194,6 @@ ul.social-icons {
 	.text-muted{
 	font-size: 12px !important;
 	
-	}
-	.ads-left img{
-		display: none;
-	}
-	.ads-right img{
-		display: none;
 	}
 	.navbar-collapse {
 		background-color: #1a417f;
@@ -422,7 +435,6 @@ ul.social-icons {
   top:150px !important;
   width: 850px;
   height: 400px;
-  
   display:none;
   z-index:9999;
   padding:20px;
@@ -435,4 +447,46 @@ ul.social-icons {
   background-color:#ffffff;
 }
 
-/* slider list movie */
+/* tearters page */
+.p-l-r-10{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ads {
+  width: 248px;
+  height: 313px;
+  background-color: #173a71;
+  margin: 0 auto;
+}
+.img-list {
+  padding: 10px;
+}
+.title {
+  padding: 10px;
+  background-color: #173a71;
+  width: 100%;
+}
+.title h2{
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.table-schedule {
+  padding-top: 10px;
+}
+
+.table {
+  color: #fff !important;
+}
+
+.table thead {
+  background-color: #7e8083;
+  
+}
+.table > tbody > tr > td {
+  border: none !important;
+}
+.table tbody {
+  background-color: #aeafb0;
+}

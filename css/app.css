@@ -12,6 +12,15 @@ body {
 .pd-0 {
   padding: 0 !important;
 }
+
+.pd-b-10 {
+    padding-bottom: 10px !important;
+}
+
+.pd-t-10 {
+    padding-top: 10px;
+}
+
 @media only screen and (min-width: 1121px){
   .pd-l-20 {
     padding-left: 20px !important;
@@ -173,25 +182,41 @@ ul.social-icons {
   right:-80px !important;
 }
 @media only screen and (max-width: 736px){
-  .carousel-control.left{
-  left:0 !important;
-  }
-  .carousel-control.right{
-    right:0 !important;
-  }
-  .navbar-collapse{
-    text-align: left !important;
-  }
-  #boxes .window{
-  display: none !important;
-  }
-		.news h1{
+
+    .time-movie {
+        text-align: center;
+    }
+
+    .img-responsive {
+        margin: 0 auto !important;
+    }
+    .info-movie {
+    position: relative;
+    right: 0px !important;
+    }
+
+    .carousel-control.left{
+        left:0 !important;
+    }
+
+    .carousel-control.right{
+        right:0 !important;
+    }
+
+    .navbar-collapse{
+        text-align: left !important;
+    }
+
+    #boxes .window{
+        display: none !important;
+    }
+	.news h1{
 		text-align: center;
 		margin: 0 auto;
 		padding-top: 10px;
 	}
 	.text-muted{
-	font-size: 12px !important;
+	   font-size: 12px !important;
 	
 	}
 	.navbar-collapse {
@@ -220,16 +245,21 @@ ul.social-icons {
     	
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
-.carousel-control.left{
-  left:0 !important;
-  }
-  .carousel-control.right{
+    .info-movie {
+    position: relative;
+    right: 120px;
+    }
+
+    .carousel-control.left{
+    left:0 !important;
+    }
+    .carousel-control.right{
     right:0 !important;
-  }
-.form-inline input[type=text]{
-	width: auto !important;
-	background-position: 160px 10px;
-}
+    }
+    .form-inline input[type=text]{
+    width: auto !important;
+    background-position: 160px 10px;
+    }
 
   footer{
   	padding-bottom: 220px !important;
@@ -504,4 +534,27 @@ ul.social-icons {
 
 .pagination a:hover {
     background-color: #15366a !important;
+}
+
+/* movie */
+ 
+.info-movie {
+    position: relative;
+    right: 120px;
+}
+
+.time-movie {
+    list-style: none;
+}
+
+.time-movie li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.time-movie a {
+    display: block;
+    padding: 10px;
+    background-color: #939393;
+    color:#fff;
 }
